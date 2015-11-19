@@ -15,4 +15,4 @@ This PowerShell script demonstrates a method for removing unwanted users from th
 * The OS used for this document is Windows 2012 R2.
 
 ##Configuration and Use
-Learn more about how to use this Powershell script on **[Qlik Community]()**.
+Learn more about how to use this Powershell script on **[Qlik Community](https://community.qlik.com/docs/DOC-13984)**
