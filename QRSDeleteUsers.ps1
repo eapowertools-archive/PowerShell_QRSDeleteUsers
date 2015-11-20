@@ -1,4 +1,4 @@
-﻿function Delete-QlikUsers {
+﻿
     <#
     .SYNOPSIS
     Deletes unwanted users from a Qlik Sense deployment.  
@@ -158,4 +158,3 @@
         Write-Host "********************************"
        
     }
-}
