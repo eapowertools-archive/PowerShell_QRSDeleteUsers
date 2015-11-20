@@ -16,4 +16,4 @@ This PowerShell script demonstrates a method for removing unwanted users from th
 
 ##Configuration and Use
 
-Learn more about how to use this Powershell script on **[Qlik Community](https://community.qlik.com/docs/DOC-12332)**.
+Learn more about how to use this Powershell script on **[Qlik Community](https://community.qlik.com/docs/DOC-13985)**.
