@@ -79,10 +79,10 @@
             )
 
         
-
+        $contenttype = "application/json"
         if($method -eq "POST")
         {
-            $response = Invoke-RestMethod $command -Headers $header -Method $method -Certificate $cert -Body $body
+            $response = Invoke-RestMethod $command -ContentType $contenttype -Headers $header -Method $method -Certificate $cert -Body $body
         }
         else
         {
@@ -99,7 +99,7 @@
     $headers = New-Object "System.Collections.Generic.Dictionary[[String],[String]]"
     $headers.Add("X-Qlik-Xrfkey",$xrfKey)
     $headers.Add($virtualProxyHeader, $userId)
-    $headers.Add("Content-Type","application/json")
+    
 
     
 
